@@ -1,0 +1,22 @@
+body {
+	align-items: center;
+	background-color: grey;
+}
+
+#pic {
+	height: 400px;
+	width: 750px;
+}
+
+.card {
+	margin: 50px;
+	align-items: center;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.questions {
+	text-align: center;
+}
