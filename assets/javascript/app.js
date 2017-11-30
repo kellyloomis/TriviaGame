@@ -15,35 +15,35 @@ function timeUp() {
 
 var triviaData = [
 {
-	question: "Kai is the Red Ninja"
-	answer: "true"
+	question: "Kai is the Red Ninja",
+	answer: "true",
 	fullAnswer: "Ninja-Go!"
 },
 {
-	question: "Jay is the Black Ninja"
-	answer: "false"
+	question: "Jay is the Black Ninja",
+	answer: "false",
 	fullAnswer: "Jay is the Blue Ninja"
 },
 {
-	question: "Zane, the White Ninja, is a robot"
-	answer: "true"
+	question: "Zane, the White Ninja, is a robot",
+	answer: "true",
 	fullAnswer: "Ninja-Go!"
 },
 {
-	question: "Lord Garmadon is Lloyd's (the Green Ninja) father"
-	answer: "true"
+	question: "Lord Garmadon is Lloyd's (the Green Ninja) father",
+	answer: "true",
 	fullAnswer: "Ninja-Go!"
 },
 {
-	question: "Nya is Cole's sister"
-	answer: "false"
+	question: "Nya is Cole's sister",
+	answer: "false",
 	fullAnswer: "Cole is Nya's boyfriend"
 },
 ]
 
 function displayQuestions() {
 
-	$("#q1" "#q2" "#q3" "#q4" "#q5").click(function(){
+	$("#q1", "#q2", "#q3", "#q4", "#q5").click(function(){
 		$("input:text").val(index[triviaData]);
 	});
 };
