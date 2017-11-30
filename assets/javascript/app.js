@@ -1,10 +1,15 @@
 var audio = new Audio("assets/images/templebell.mp3");
 
+var distance = setTimeout;
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
 setTimeout(function() {
   thirtySeconds();
 }, 1000 * 30);
 
 setTimeout(timeUp, 1000 * 15);
+
+document.getElementById("timer").innerHTML = seconds + "s ";
 
 function timeUp() {
 
@@ -46,4 +51,6 @@ function displayQuestions() {
 	$("#q1", "#q2", "#q3", "#q4", "#q5").click(function(){
 		$("input:text").val(index[triviaData]);
 	});
+
+	document.getElementById("questions").innerHTML = total;
 };
